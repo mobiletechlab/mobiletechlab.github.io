@@ -4,13 +4,7 @@
 	License: pixelarity.com/license
 */
 /* Button */
-input[type="submit"],
-input[type="reset"],
-input[type="button"],
-button,
-.button {
-  border: solid 2px #42B2CC; }
+input[type="submit"], input[type="reset"], input[type="button"], button, .button { border: solid 2px #42B2CC; }
 
 /* Posts */
-.posts article {
-  width: 40%; }
+.posts article { width: 40%; }
