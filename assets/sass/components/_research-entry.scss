@@ -1,0 +1,93 @@
+#paper-list {
+    .search-sort {
+        background-color: _palette(accent);
+        color: white;
+        padding: 4px;
+        font-size: 0.8em;
+    }
+
+    .search-result-list {
+        list-style-type: none;
+    }
+
+    ul, li {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .search-outlet-chip {
+        background-color: #f0ad4e;
+        padding: 4px;
+        color: white;
+        font-size: 0.8em;
+    }
+
+    .search-result-paper:nth-child(1) {
+        border-top: 1px solid #ddd;
+        padding-top: 15px;
+    }
+
+    .search-result-paper {
+        border-bottom: 1px solid #ddd;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .outlet {
+            font-size: 0.8em;
+            color: #aaa;
+            line-height: 0em;
+        }
+    }
+
+    /*
+        Pagination
+        .page = inactive page number in pagination
+        .active = active page number … 
+    */
+    .page {
+        color: rgba(66, 178, 204, 0.3) !important;
+    }
+
+    .active .page {
+        color: rgba(66, 178, 204, 1.0) !important;
+        font-weight: bold !important;
+    }
+
+    .search-result-paper-info {
+        @include breakpoint(large-to-max) {
+            flex: 0.95;
+        }
+        
+        @include breakpoint(medium) {
+            flex: 0.95;
+        }
+
+        @include breakpoint(small) {
+            flex: 0.8;
+        }
+
+        @include breakpoint(xsmall) {
+            flex: 0.8;
+        }
+
+    }
+
+    .search-result-paper-links {
+        flex: 0.05;
+        text-align: right;
+        
+        .paper-icon {
+            width: 20px;
+            height: 20px;
+            margin: 5px;
+        }
+
+        @include breakpoint(xsmall-to-small) {
+            flex: 0.2;
+        }
+    }
+}

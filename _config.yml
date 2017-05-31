@@ -1,0 +1,19 @@
+# Site settings
+title: Mobile Tech Lab
+tagline: A Research Facility at Westerdals Oslo ACT
+description: > # this means to ignore newlines until "baseurl:"
+  Website of the Westerdals Oslo ACT\'s mobile research facility.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://mobiletechlab.no" # the base hostname & protocol for your site
+
+# Plugins
+gems: ["jekyll-paginate"]
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: assets/sass
+
+# Pagination
+paginate: 4
+paginate_path: "/blog/page:num/"

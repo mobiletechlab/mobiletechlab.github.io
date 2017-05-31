@@ -1,0 +1,50 @@
+{% comment %} Editorial by Pixelarity pixelarity.com | hello@pixelarity.com License: pixelarity.com/license Name: Sidebar
+Description: Site navigation, related content, and contact info. Example: {% include layout/sidebar.html %} {% endcomment
+%}
+
+<!-- Sidebar -->
+<div id="sidebar">
+	<div class="inner">
+
+		<section id="logo" class="alt"> </section>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<!--<header class="major">
+				<h2></h2>
+			</header>-->
+			<ul>
+				<li><a href="{{ site.baseurl }}/">Home</a></li>
+				<li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+				<li><a href="{{ site.baseurl }}/research">Research</a></li>
+				<li><a href="{{ site.baseurl }}/people">People</a></li>
+				<li>
+					<span class="opener">Lab</span>
+					<ul>
+						<li><a href="#">Equipment</a></li>
+						<li><a href="#">…</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- Section -->
+		<section>
+			<header class="major">
+				<h2>Contact us</h2>
+			</header>
+			<p>Get in touch with MOTEL!</p>
+			<ul class="contact">
+				<li class="fa-envelope-o"><a href="#">motel@westerdals.no</a></li>
+				<!--<li class="fa-phone">(000) 000-0000</li>-->
+				<li class="fa-home">Christian Krohgs gate 32<br /> Oslo, Norge</li>
+			</ul>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<p class="copyright">&copy; MobileTechLab, Westerdals. All rights reserved.</p>
+		</footer>
+
+	</div>
+</div>
