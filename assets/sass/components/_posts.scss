@@ -21,8 +21,13 @@
 			position: relative;
 			width: calc(#{(100% / 3)} - #{$gutter});
 
-			border-bottom: 1px solid #eee;
+			//border-bottom: 1px solid #eee;
 			padding-bottom: 15px;
+
+			.linkedin {
+				border-bottom: none !important;
+				font-size: 1.6em;
+			}
 
 			.title {
 				line-height: 1.2em;
@@ -86,10 +91,6 @@
 		@include breakpoint(xlarge) {
 			article {
 				width: calc(33% - #{$gutter});
-
-				&:nth-last-child(3) {
-					margin-bottom: $gutter;
-				}
 			}
 		}
 

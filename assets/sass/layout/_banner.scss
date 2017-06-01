@@ -17,13 +17,41 @@
 		.content {
 			@include vendor('flex-grow', '1');
 			@include vendor('flex-shrink', '1');
-			width: 50%;
+		}
+
+		p {
+			float: left;
+			width: 40vw !important;
+		}
+
+		img {
+			float: left;
+			width: 30vw !important;
+		}
+
+		@include breakpoint(medium) {
+			p {
+				width: 90vw !important; 
+			}
+
+			img {
+				width: 90vw !important;
+			}
+		}
+
+		@include breakpoint(small) {
+			p {
+				width: 90vw !important; 
+			}
+			
+			img {
+				width: 90vw !important;
+			}
 		}
 
 		.image {
 			@include vendor('flex-grow', '0');
 			@include vendor('flex-shrink', '0');
-			display: block;
 			margin: 0 0 _size(element-margin) (_size(element-margin) * 2);
 			width: 50%;
 

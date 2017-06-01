@@ -1,23 +1,6 @@
+--- 
+layout: page 
 ---
-layout: page
----
-
-{% comment %}
-
-	Editorial by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-
-	Name:
-
-		Generic page
-
-	Description:
-
-		A generic content page.
-
-{% endcomment %}
-
 <header class="main">
 	<h1>Research</h1>
 </header>
@@ -29,6 +12,7 @@ layout: page
 		Sort by:
 		<span class="sort" data-sort="authors">Authors</span>
 		<span class="sort" data-sort="title">Title</span>
+		<span class="sort" data-sort="year">Year</span>
 		<span class="sort" data-sort="outlet_type">Outlet type</span>
 	</div>
 
@@ -38,15 +22,18 @@ layout: page
 </div>
 
 <script>
-var options = {
-  page: 3,
-  pagination: true,
-  valueNames: [ 'authors', 'title', 'outlet_type', 'outlet' ],
-  item: `<li class="search-result-paper">
+	var options = {
+		page: 7,
+		pagination: true,
+		valueNames: ['authors', 'title', 'outlet_type', 'outlet', 'year'],
+		item: `<li class="search-result-paper">
   	<div class="search-result-paper-info">
-	  <h3 class="title"></h3>
-	  <p class="authors"></p>
-	  <p class="outlet"></p>
+	  	<h3 class="title"></h3>
+	  	<p class="authors"></p>
+	  	<div class="year-outlet">
+		  	<p class="year"></p>
+			<p class="outlet"></p>
+		</div>
 	</div>
 	<div class="search-result-paper-links">
 		<i class="outlet_type search-outlet-chip"></i>
@@ -56,12 +43,12 @@ var options = {
 		<img class="paper-icon" title="Read paper meta" src="{{ site.baseurl }}/images/external_link_icon_gray.png" alt="Icon: External paper link" />
 	</div>
 </li>`
-};
+	};
 
-window.onload = () => {
-	$.getJSON('../research.json').done((data) => {
-		var paperList = new List('paper-list', options, data.papers);
-	});
-};
+	window.onload = () => {
+		$.getJSON('../research.json').done((data) => {
+			var paperList = new List('paper-list', options, data.papers);
+		});
+	};
 
 </script>

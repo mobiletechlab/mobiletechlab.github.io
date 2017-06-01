@@ -10,6 +10,11 @@
         font-size: 0.8em;
     }
 
+    .sort {
+        cursor: pointer;
+        user-select: none;
+    }
+
     .search-result-list {
         list-style-type: none;
     }
@@ -40,10 +45,19 @@
         flex-wrap: wrap;
         justify-content: space-between;
 
-        .outlet {
+        .outlet, .year {
+            margin-left: 5px;
             font-size: 0.8em;
             color: #aaa;
-            line-height: 0em;
+        }
+
+        .year:after {
+            content: ' - '
+        }
+
+        .year-outlet {
+            display: flex;
+            flex-direction: row;
         }
     }
 

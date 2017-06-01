@@ -30,7 +30,7 @@
 	<header id="header">
 		<a href="/" class="logo">
 			<!--<strong>Mobile Tech Lab</strong>--> 
-			A Research Facility at Westerdals Oslo ACT
+			<strong>MOTEL</strong> A Research Facility at Westerdals Oslo ACT
 			<!--<strong>Mobile Tech Lab</strong> A Research Facility at Westerdals Oslo ACT-->
 		</a>
 		<ul class="icons">
@@ -43,9 +43,7 @@
 
 <!-- Content -->
 	<section>
-		
-
-<header class="main">
+		<header class="main">
 	<h1>Research</h1>
 </header>
 
@@ -56,6 +54,7 @@
 		Sort by:
 		<span class="sort" data-sort="authors">Authors</span>
 		<span class="sort" data-sort="title">Title</span>
+		<span class="sort" data-sort="year">Year</span>
 		<span class="sort" data-sort="outlet_type">Outlet type</span>
 	</div>
 
@@ -65,15 +64,18 @@
 </div>
 
 <script>
-var options = {
-  page: 3,
-  pagination: true,
-  valueNames: [ 'authors', 'title', 'outlet_type', 'outlet' ],
-  item: `<li class="search-result-paper">
+	var options = {
+		page: 7,
+		pagination: true,
+		valueNames: ['authors', 'title', 'outlet_type', 'outlet', 'year'],
+		item: `<li class="search-result-paper">
   	<div class="search-result-paper-info">
-	  <h3 class="title"></h3>
-	  <p class="authors"></p>
-	  <p class="outlet"></p>
+	  	<h3 class="title"></h3>
+	  	<p class="authors"></p>
+	  	<div class="year-outlet">
+		  	<p class="year"></p>
+			<p class="outlet"></p>
+		</div>
 	</div>
 	<div class="search-result-paper-links">
 		<i class="outlet_type search-outlet-chip"></i>
@@ -83,13 +85,13 @@ var options = {
 		<img class="paper-icon" title="Read paper meta" src="/images/external_link_icon_gray.png" alt="Icon: External paper link" />
 	</div>
 </li>`
-};
+	};
 
-window.onload = () => {
-	$.getJSON('../research.json').done((data) => {
-		var paperList = new List('paper-list', options, data.papers);
-	});
-};
+	window.onload = () => {
+		$.getJSON('../research.json').done((data) => {
+			var paperList = new List('paper-list', options, data.papers);
+		});
+	};
 
 </script>
 	</section>
@@ -119,21 +121,10 @@ window.onload = () => {
 						<li><a href="#">…</a></li>
 					</ul>
 				</li>
-				<li><a href="/blog">Blog</a></li>
+				<!--<li><a href="/blog">Blog</a></li>-->
 				<li><a href="/contact">Contact us</a></li>
 			</ul>
 		</nav>
-
-		<!--<section>
-			<header class="major">
-				<h2>Contact us</h2>
-			</header>
-			<p>Get in touch with MOTEL!</p>
-			<ul class="contact">
-				<li class="fa-envelope-o"><a href="#">motel@westerdals.no</a></li>
-				<li class="fa-home">Christian Krohgs gate 32<br /> Oslo, Norge</li>
-			</ul>
-		</section>-->
 
 		<!--<footer id="footer">
 			<p class="copyright">&copy; Mobile Tech Lab, Westerdals. All rights reserved.</p>
