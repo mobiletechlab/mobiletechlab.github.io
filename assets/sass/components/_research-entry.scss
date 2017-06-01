@@ -1,7 +1,11 @@
 #paper-list {
-    .search-sort {
-        background-color: _palette(accent);
-        color: white;
+    .search-sort-list {
+        margin-top: 10px;
+    }
+
+    .sort {
+        background-color: #F5F6F7;
+        color: inherit;
         padding: 4px;
         font-size: 0.8em;
     }

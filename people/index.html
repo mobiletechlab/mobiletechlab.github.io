@@ -1,36 +1,67 @@
 ---
 layout: default
 
-people:
-- image: https://www.westerdals.no/content/uploads/2016/09/Tor-Morten-Gr%C3%B8nli-bw-600x800.jpg
-  title: Tor-Morten Grønli
-  excerpt: ...
+internal_people:
+- image: /images/people/tmg_bw.jpg
+  title: Tor-Morten Grønli, Ph.D. CS
+  subtitle: Head of Mobile Tech Lab (MOTEL), Dean Faculty of Technology
+  excerpt: Tor-Morten is interested in mobile, ubiquitous and pervasive computing.
+  linkedin: https://www.linkedin.com/in/tormorten/
   url: "#"
-- image: /images/pic02.jpg
-  title: Nulla amet dolore
-  excerpt: Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+- image: /images/people/ksh_bw.jpg
+  title: Kjeld Steenbjerg Hansen, Ph.D. fellow
+  subtitle: Fellow at Faculty of Technology
+  excerpt: Kjeld is interested in the interplay between social media, mobile computing and information management in relation to public health and cities.
+  linkedin: https://www.linkedin.com/in/kjeldsh/
   url: "#"
 - image: /images/pic03.jpg
-  title: Tempus ullamcorper
-  excerpt: Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+  title: Anders Mikkelsen, MSc
+  subtitle: Master's of Applied Computer Science candidate
+  excerpt: Anders is interested in distributed systems, mobile integrations, microservices and systems architecture.
+  linkedin: https://www.linkedin.com/in/andersmikkelsen1/
   url: "#"
 - image: /images/pic04.jpg
-  title: Sed etiam facilis
-  excerpt: Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+  title: Andreas Biørn-Hansen, Ph.D. fellow
+  subtitle: Fellow at Faculty of Technology
+  excerpt: Andreas is interested in cross-platform development, the mobile web and emerging mobile technologies.
+  linkedin: https://www.linkedin.com/in/andreasbnor/
   url: "#"
-- image: /images/pic05.jpg
-  title: Feugiat lorem aenean
-  excerpt: Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+
+external_people:
+- image: /images/people/rv.jpg
+  title: Ravi Vatrapu, Ph.D. IS
+  subtitle: Visiting researcher and lecturer at Faculty of Technology
+  excerpt: Ravi is interested in computational social science and big data.
+  linkedin: https://www.linkedin.com/in/ravi-vatrapu-a86a0b5/
   url: "#"
-- image: /images/pic06.jpg
-  title: Amet varius aliquam
-  excerpt: Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+- image: /images/people/rrm.jpg
+  title: Raghava Rao Mukkamala, Ph.D. CS
+  excerpt: Raghava is interested in computational social science and social media.
+  linkedin: https://www.linkedin.com/in/raghavamukkamala/
   url: "#"
+- image: /images/people/gg.jpg
+  title: George Ghinea, Ph.D.
+  excerpt: George is interested in eye-tracking, telemedicine, multi-modal interaction, and ubiquitous and mobile computing.
+  linkedin: https://www.linkedin.com/in/george-ghinea-3462022/
+  url: "#"
+- image: /images/people/tam.jpeg
+  title: Tim A. Majchrzak, Ph.D. IS
+  excerpt: Tim is interested in cross-platform development and …
+  linkedin: https://www.linkedin.com/in/tim-a-majchrzak-18a08023/
+  url: "#"
+
 ---
 <!-- Section -->
 	<section>
 		<header class="major">
-			<h2>The People</h2>
+			<h2>Internal Researchers</h2>
 		</header>
-		{% include components/posts.html posts=page.people %}
+		{% include components/posts.html posts=page.internal_people %}
+	</section>
+
+  <section>
+		<header class="major">
+			<h2>External Researchers</h2>
+		</header>
+		{% include components/posts.html posts=page.external_people %}
 	</section>

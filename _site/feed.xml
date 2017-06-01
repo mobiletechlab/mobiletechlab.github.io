@@ -4,10 +4,10 @@
 	<title>Mobile Tech Lab</title>
 	<description>Website of the Westerdals Oslo ACT\'s mobile research facility.
 </description>
-	<link>http://mobiletechlab.no/</link>
-	<atom:link href="http://mobiletechlab.no/feed.xml" rel="self" type="application/rss+xml"/>
-	<pubDate>Wed, 31 May 2017 15:06:04 +0200</pubDate>
-	<lastBuildDate>Wed, 31 May 2017 15:06:04 +0200</lastBuildDate>
+	<link>http://localhost:4000/</link>
+	<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+	<pubDate>Thu, 01 Jun 2017 09:30:14 +0200</pubDate>
+	<lastBuildDate>Thu, 01 Jun 2017 09:30:14 +0200</lastBuildDate>
 	<generator>Jekyll v3.4.3</generator>
 
 	
@@ -30,8 +30,8 @@
 
 </description>
 			<pubDate>Tue, 04 Oct 2016 03:41:07 +0200</pubDate>
-			<link>http://mobiletechlab.no/jekyll/update/2016/10/03/welcome-to-jekyll.html</link>
-			<guid isPermaLink="true">http://mobiletechlab.no/jekyll/update/2016/10/03/welcome-to-jekyll.html</guid>
+			<link>http://localhost:4000/jekyll/update/2016/10/03/welcome-to-jekyll.html</link>
+			<guid isPermaLink="true">http://localhost:4000/jekyll/update/2016/10/03/welcome-to-jekyll.html</guid>
 
 			
 
@@ -52,8 +52,8 @@
 &lt;p&gt;Nullam placerat turpis sit amet ipsum porttitor tincidunt. Nunc suscipit rutrum neque sit amet maximus. Morbi sit amet ornare sem, vitae maximus nisi. Fusce risus risus, ornare a ante a, varius semper nunc. Vestibulum dictum facilisis nisi, in porttitor est consequat non. Fusce luctus quis leo pretium efficitur ac et est. Cras feugiat velit nibh, eu posuere arcu suscipit rhoncus. Donec ac pretium ipsum. Mauris posuere massa augue, eget vulputate felis pellentesque et. Phasellus non nunc sit amet diam rutrum tempus et eu quam. In posuere metus eu diam euismod, sodales eleifend dolor volutpat. Pellentesque eget consequat nibh. Pellentesque a sem velit. Pellentesque ultrices mi orci, non suscipit massa condimentum a. Nulla eget dolor non est posuere congue in ac nunc. Cras placerat, ex eu consectetur faucibus, dolor elit imperdiet massa, nec pulvinar tortor sapien et diam. Curabitur nec lacus sed nibh porta suscipit. Donec egestas, mi at gravida pretium, quam est venenatis velit, non dictum libero nulla ac odio. Aliquam erat volutpat. Nulla facilisi. Pellentesque id tincidunt, at faucibus enim. Proin diam elit, laoreet id neque dapibus, venenatis commodo leo. Ut pellentesque at arcu eu sodales. Aliquam tempus venenatis ipsum ut dignissim. In eget tellus eu nunc iaculis pharetra.&lt;/p&gt;
 </description>
 			<pubDate>Fri, 23 Sep 2016 03:41:07 +0200</pubDate>
-			<link>http://mobiletechlab.no/2016/09/22/lorem-ipsum-dolor.html</link>
-			<guid isPermaLink="true">http://mobiletechlab.no/2016/09/22/lorem-ipsum-dolor.html</guid>
+			<link>http://localhost:4000/2016/09/22/lorem-ipsum-dolor.html</link>
+			<guid isPermaLink="true">http://localhost:4000/2016/09/22/lorem-ipsum-dolor.html</guid>
 
 			
 
@@ -70,8 +70,8 @@
 &lt;p&gt;Nullam placerat turpis sit amet ipsum porttitor tincidunt. Nunc suscipit rutrum neque sit amet maximus. Morbi sit amet ornare sem, vitae maximus nisi. Fusce risus risus, ornare a ante a, varius semper nunc. Vestibulum dictum facilisis nisi, in porttitor est consequat non. Fusce luctus quis leo pretium efficitur ac et est. Cras feugiat velit nibh, eu posuere arcu suscipit rhoncus. Donec ac pretium ipsum. Mauris posuere massa augue, eget vulputate felis pellentesque et. Phasellus non nunc sit amet diam rutrum tempus et eu quam. In posuere metus eu diam euismod, sodales eleifend dolor volutpat. Pellentesque eget consequat nibh. Pellentesque a sem velit. Pellentesque ultrices mi orci, non suscipit massa condimentum a. Nulla eget dolor non est posuere congue in ac nunc. Cras placerat, ex eu consectetur faucibus, dolor elit imperdiet massa, nec pulvinar tortor sapien et diam. Curabitur nec lacus sed nibh porta suscipit. Donec egestas, mi at gravida pretium, quam est venenatis velit, non dictum libero nulla ac odio. Aliquam erat volutpat. Nulla facilisi. Pellentesque id tincidunt, at faucibus enim. Proin diam elit, laoreet id neque dapibus, venenatis commodo leo. Ut pellentesque at arcu eu sodales. Aliquam tempus venenatis ipsum ut dignissim. In eget tellus eu nunc iaculis pharetra.&lt;/p&gt;
 </description>
 			<pubDate>Sat, 10 Sep 2016 03:41:07 +0200</pubDate>
-			<link>http://mobiletechlab.no/2016/09/09/amet-consectetur.html</link>
-			<guid isPermaLink="true">http://mobiletechlab.no/2016/09/09/amet-consectetur.html</guid>
+			<link>http://localhost:4000/2016/09/09/amet-consectetur.html</link>
+			<guid isPermaLink="true">http://localhost:4000/2016/09/09/amet-consectetur.html</guid>
 
 			
 
@@ -88,8 +88,8 @@
 &lt;p&gt;Nullam placerat turpis sit amet ipsum porttitor tincidunt. Nunc suscipit rutrum neque sit amet maximus. Morbi sit amet ornare sem, vitae maximus nisi. Fusce risus risus, ornare a ante a, varius semper nunc. Vestibulum dictum facilisis nisi, in porttitor est consequat non. Fusce luctus quis leo pretium efficitur ac et est. Cras feugiat velit nibh, eu posuere arcu suscipit rhoncus. Donec ac pretium ipsum. Mauris posuere massa augue, eget vulputate felis pellentesque et. Phasellus non nunc sit amet diam rutrum tempus et eu quam. In posuere metus eu diam euismod, sodales eleifend dolor volutpat. Pellentesque eget consequat nibh. Pellentesque a sem velit. Pellentesque ultrices mi orci, non suscipit massa condimentum a. Nulla eget dolor non est posuere congue in ac nunc. Cras placerat, ex eu consectetur faucibus, dolor elit imperdiet massa, nec pulvinar tortor sapien et diam. Curabitur nec lacus sed nibh porta suscipit. Donec egestas, mi at gravida pretium, quam est venenatis velit, non dictum libero nulla ac odio. Aliquam erat volutpat. Nulla facilisi. Pellentesque id tincidunt, at faucibus enim. Proin diam elit, laoreet id neque dapibus, venenatis commodo leo. Ut pellentesque at arcu eu sodales. Aliquam tempus venenatis ipsum ut dignissim. In eget tellus eu nunc iaculis pharetra.&lt;/p&gt;
 </description>
 			<pubDate>Wed, 31 Aug 2016 03:41:07 +0200</pubDate>
-			<link>http://mobiletechlab.no/2016/08/30/sed-mattis-nunc-lorem.html</link>
-			<guid isPermaLink="true">http://mobiletechlab.no/2016/08/30/sed-mattis-nunc-lorem.html</guid>
+			<link>http://localhost:4000/2016/08/30/sed-mattis-nunc-lorem.html</link>
+			<guid isPermaLink="true">http://localhost:4000/2016/08/30/sed-mattis-nunc-lorem.html</guid>
 
 			
 
@@ -106,8 +106,8 @@
 &lt;p&gt;Nullam placerat turpis sit amet ipsum porttitor tincidunt. Nunc suscipit rutrum neque sit amet maximus. Morbi sit amet ornare sem, vitae maximus nisi. Fusce risus risus, ornare a ante a, varius semper nunc. Vestibulum dictum facilisis nisi, in porttitor est consequat non. Fusce luctus quis leo pretium efficitur ac et est. Cras feugiat velit nibh, eu posuere arcu suscipit rhoncus. Donec ac pretium ipsum. Mauris posuere massa augue, eget vulputate felis pellentesque et. Phasellus non nunc sit amet diam rutrum tempus et eu quam. In posuere metus eu diam euismod, sodales eleifend dolor volutpat. Pellentesque eget consequat nibh. Pellentesque a sem velit. Pellentesque ultrices mi orci, non suscipit massa condimentum a. Nulla eget dolor non est posuere congue in ac nunc. Cras placerat, ex eu consectetur faucibus, dolor elit imperdiet massa, nec pulvinar tortor sapien et diam. Curabitur nec lacus sed nibh porta suscipit. Donec egestas, mi at gravida pretium, quam est venenatis velit, non dictum libero nulla ac odio. Aliquam erat volutpat. Nulla facilisi. Pellentesque id tincidunt, at faucibus enim. Proin diam elit, laoreet id neque dapibus, venenatis commodo leo. Ut pellentesque at arcu eu sodales. Aliquam tempus venenatis ipsum ut dignissim. In eget tellus eu nunc iaculis pharetra.&lt;/p&gt;
 </description>
 			<pubDate>Sat, 23 Jul 2016 03:41:07 +0200</pubDate>
-			<link>http://mobiletechlab.no/2016/07/22/amet-dolor-sed-mattis-lorem.html</link>
-			<guid isPermaLink="true">http://mobiletechlab.no/2016/07/22/amet-dolor-sed-mattis-lorem.html</guid>
+			<link>http://localhost:4000/2016/07/22/amet-dolor-sed-mattis-lorem.html</link>
+			<guid isPermaLink="true">http://localhost:4000/2016/07/22/amet-dolor-sed-mattis-lorem.html</guid>
 
 			
 
@@ -124,8 +124,8 @@
 &lt;p&gt;Nullam placerat turpis sit amet ipsum porttitor tincidunt. Nunc suscipit rutrum neque sit amet maximus. Morbi sit amet ornare sem, vitae maximus nisi. Fusce risus risus, ornare a ante a, varius semper nunc. Vestibulum dictum facilisis nisi, in porttitor est consequat non. Fusce luctus quis leo pretium efficitur ac et est. Cras feugiat velit nibh, eu posuere arcu suscipit rhoncus. Donec ac pretium ipsum. Mauris posuere massa augue, eget vulputate felis pellentesque et. Phasellus non nunc sit amet diam rutrum tempus et eu quam. In posuere metus eu diam euismod, sodales eleifend dolor volutpat. Pellentesque eget consequat nibh. Pellentesque a sem velit. Pellentesque ultrices mi orci, non suscipit massa condimentum a. Nulla eget dolor non est posuere congue in ac nunc. Cras placerat, ex eu consectetur faucibus, dolor elit imperdiet massa, nec pulvinar tortor sapien et diam. Curabitur nec lacus sed nibh porta suscipit. Donec egestas, mi at gravida pretium, quam est venenatis velit, non dictum libero nulla ac odio. Aliquam erat volutpat. Nulla facilisi. Pellentesque id tincidunt, at faucibus enim. Proin diam elit, laoreet id neque dapibus, venenatis commodo leo. Ut pellentesque at arcu eu sodales. Aliquam tempus venenatis ipsum ut dignissim. In eget tellus eu nunc iaculis pharetra.&lt;/p&gt;
 </description>
 			<pubDate>Mon, 04 Jul 2016 20:34:56 +0200</pubDate>
-			<link>http://mobiletechlab.no/2016/07/04/tempus-dolor-magna.html</link>
-			<guid isPermaLink="true">http://mobiletechlab.no/2016/07/04/tempus-dolor-magna.html</guid>
+			<link>http://localhost:4000/2016/07/04/tempus-dolor-magna.html</link>
+			<guid isPermaLink="true">http://localhost:4000/2016/07/04/tempus-dolor-magna.html</guid>
 
 			
 
@@ -142,8 +142,8 @@
 &lt;p&gt;Nullam placerat turpis sit amet ipsum porttitor tincidunt. Nunc suscipit rutrum neque sit amet maximus. Morbi sit amet ornare sem, vitae maximus nisi. Fusce risus risus, ornare a ante a, varius semper nunc. Vestibulum dictum facilisis nisi, in porttitor est consequat non. Fusce luctus quis leo pretium efficitur ac et est. Cras feugiat velit nibh, eu posuere arcu suscipit rhoncus. Donec ac pretium ipsum. Mauris posuere massa augue, eget vulputate felis pellentesque et. Phasellus non nunc sit amet diam rutrum tempus et eu quam. In posuere metus eu diam euismod, sodales eleifend dolor volutpat. Pellentesque eget consequat nibh. Pellentesque a sem velit. Pellentesque ultrices mi orci, non suscipit massa condimentum a. Nulla eget dolor non est posuere congue in ac nunc. Cras placerat, ex eu consectetur faucibus, dolor elit imperdiet massa, nec pulvinar tortor sapien et diam. Curabitur nec lacus sed nibh porta suscipit. Donec egestas, mi at gravida pretium, quam est venenatis velit, non dictum libero nulla ac odio. Aliquam erat volutpat. Nulla facilisi. Pellentesque id tincidunt, at faucibus enim. Proin diam elit, laoreet id neque dapibus, venenatis commodo leo. Ut pellentesque at arcu eu sodales. Aliquam tempus venenatis ipsum ut dignissim. In eget tellus eu nunc iaculis pharetra.&lt;/p&gt;
 </description>
 			<pubDate>Tue, 14 Jun 2016 20:34:56 +0200</pubDate>
-			<link>http://mobiletechlab.no/2016/06/14/veroeros-sed-etiam-nullam.html</link>
-			<guid isPermaLink="true">http://mobiletechlab.no/2016/06/14/veroeros-sed-etiam-nullam.html</guid>
+			<link>http://localhost:4000/2016/06/14/veroeros-sed-etiam-nullam.html</link>
+			<guid isPermaLink="true">http://localhost:4000/2016/06/14/veroeros-sed-etiam-nullam.html</guid>
 
 			
 
@@ -160,8 +160,8 @@
 &lt;p&gt;Nullam placerat turpis sit amet ipsum porttitor tincidunt. Nunc suscipit rutrum neque sit amet maximus. Morbi sit amet ornare sem, vitae maximus nisi. Fusce risus risus, ornare a ante a, varius semper nunc. Vestibulum dictum facilisis nisi, in porttitor est consequat non. Fusce luctus quis leo pretium efficitur ac et est. Cras feugiat velit nibh, eu posuere arcu suscipit rhoncus. Donec ac pretium ipsum. Mauris posuere massa augue, eget vulputate felis pellentesque et. Phasellus non nunc sit amet diam rutrum tempus et eu quam. In posuere metus eu diam euismod, sodales eleifend dolor volutpat. Pellentesque eget consequat nibh. Pellentesque a sem velit. Pellentesque ultrices mi orci, non suscipit massa condimentum a. Nulla eget dolor non est posuere congue in ac nunc. Cras placerat, ex eu consectetur faucibus, dolor elit imperdiet massa, nec pulvinar tortor sapien et diam. Curabitur nec lacus sed nibh porta suscipit. Donec egestas, mi at gravida pretium, quam est venenatis velit, non dictum libero nulla ac odio. Aliquam erat volutpat. Nulla facilisi. Pellentesque id tincidunt, at faucibus enim. Proin diam elit, laoreet id neque dapibus, venenatis commodo leo. Ut pellentesque at arcu eu sodales. Aliquam tempus venenatis ipsum ut dignissim. In eget tellus eu nunc iaculis pharetra.&lt;/p&gt;
 </description>
 			<pubDate>Fri, 03 Jun 2016 20:34:56 +0200</pubDate>
-			<link>http://mobiletechlab.no/2016/06/03/ipsum-magna-lorem.html</link>
-			<guid isPermaLink="true">http://mobiletechlab.no/2016/06/03/ipsum-magna-lorem.html</guid>
+			<link>http://localhost:4000/2016/06/03/ipsum-magna-lorem.html</link>
+			<guid isPermaLink="true">http://localhost:4000/2016/06/03/ipsum-magna-lorem.html</guid>
 
 			
 
@@ -178,8 +178,8 @@
 &lt;p&gt;Nullam placerat turpis sit amet ipsum porttitor tincidunt. Nunc suscipit rutrum neque sit amet maximus. Morbi sit amet ornare sem, vitae maximus nisi. Fusce risus risus, ornare a ante a, varius semper nunc. Vestibulum dictum facilisis nisi, in porttitor est consequat non. Fusce luctus quis leo pretium efficitur ac et est. Cras feugiat velit nibh, eu posuere arcu suscipit rhoncus. Donec ac pretium ipsum. Mauris posuere massa augue, eget vulputate felis pellentesque et. Phasellus non nunc sit amet diam rutrum tempus et eu quam. In posuere metus eu diam euismod, sodales eleifend dolor volutpat. Pellentesque eget consequat nibh. Pellentesque a sem velit. Pellentesque ultrices mi orci, non suscipit massa condimentum a. Nulla eget dolor non est posuere congue in ac nunc. Cras placerat, ex eu consectetur faucibus, dolor elit imperdiet massa, nec pulvinar tortor sapien et diam. Curabitur nec lacus sed nibh porta suscipit. Donec egestas, mi at gravida pretium, quam est venenatis velit, non dictum libero nulla ac odio. Aliquam erat volutpat. Nulla facilisi. Pellentesque id tincidunt, at faucibus enim. Proin diam elit, laoreet id neque dapibus, venenatis commodo leo. Ut pellentesque at arcu eu sodales. Aliquam tempus venenatis ipsum ut dignissim. In eget tellus eu nunc iaculis pharetra.&lt;/p&gt;
 </description>
 			<pubDate>Sun, 22 May 2016 20:34:56 +0200</pubDate>
-			<link>http://mobiletechlab.no/2016/05/22/sed-nisl-adipiscing.html</link>
-			<guid isPermaLink="true">http://mobiletechlab.no/2016/05/22/sed-nisl-adipiscing.html</guid>
+			<link>http://localhost:4000/2016/05/22/sed-nisl-adipiscing.html</link>
+			<guid isPermaLink="true">http://localhost:4000/2016/05/22/sed-nisl-adipiscing.html</guid>
 
 			
 
@@ -196,8 +196,8 @@
 &lt;p&gt;Nullam placerat turpis sit amet ipsum porttitor tincidunt. Nunc suscipit rutrum neque sit amet maximus. Morbi sit amet ornare sem, vitae maximus nisi. Fusce risus risus, ornare a ante a, varius semper nunc. Vestibulum dictum facilisis nisi, in porttitor est consequat non. Fusce luctus quis leo pretium efficitur ac et est. Cras feugiat velit nibh, eu posuere arcu suscipit rhoncus. Donec ac pretium ipsum. Mauris posuere massa augue, eget vulputate felis pellentesque et. Phasellus non nunc sit amet diam rutrum tempus et eu quam. In posuere metus eu diam euismod, sodales eleifend dolor volutpat. Pellentesque eget consequat nibh. Pellentesque a sem velit. Pellentesque ultrices mi orci, non suscipit massa condimentum a. Nulla eget dolor non est posuere congue in ac nunc. Cras placerat, ex eu consectetur faucibus, dolor elit imperdiet massa, nec pulvinar tortor sapien et diam. Curabitur nec lacus sed nibh porta suscipit. Donec egestas, mi at gravida pretium, quam est venenatis velit, non dictum libero nulla ac odio. Aliquam erat volutpat. Nulla facilisi. Pellentesque id tincidunt, at faucibus enim. Proin diam elit, laoreet id neque dapibus, venenatis commodo leo. Ut pellentesque at arcu eu sodales. Aliquam tempus venenatis ipsum ut dignissim. In eget tellus eu nunc iaculis pharetra.&lt;/p&gt;
 </description>
 			<pubDate>Wed, 11 May 2016 20:34:56 +0200</pubDate>
-			<link>http://mobiletechlab.no/2016/05/11/feugiat-nisl-tempus-lorem.html</link>
-			<guid isPermaLink="true">http://mobiletechlab.no/2016/05/11/feugiat-nisl-tempus-lorem.html</guid>
+			<link>http://localhost:4000/2016/05/11/feugiat-nisl-tempus-lorem.html</link>
+			<guid isPermaLink="true">http://localhost:4000/2016/05/11/feugiat-nisl-tempus-lorem.html</guid>
 
 			
 

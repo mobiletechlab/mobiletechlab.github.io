@@ -138,6 +138,10 @@
 			}
 
 			.toggle {
+				display: none;
+			}
+
+/*			.toggle {
 				height: 6.25em;
 				left: _size(sidebar-width-alt);
 				line-height: 6.25em;
@@ -147,7 +151,7 @@
 				&:before {
 					font-size: 1.5rem;
 				}
-			}
+			}*/
 
 			&.inactive {
 				margin-left: (_size(sidebar-width-alt) * -1);
@@ -184,6 +188,7 @@
 			}
 
 			.toggle {
+				display: block;
 				text-indent: 6em;
 				width: 6em;
 
@@ -200,10 +205,16 @@
 
 		@include breakpoint(small) {
 			.toggle {
-				text-indent: 7.25em;
-				width: 7.25em;
+				display: block;
+				text-indent: 6em;
+				width: 6em;
 
 				&:before {
+					font-size: 1.5rem;
+					margin-left: (-0.875em / 2);
+				}
+
+				/*&:before {
 					color: _palette(fg);
 					margin-left: (-0.125em / 2);
 					margin-top: (-0.5em / 2);
@@ -220,7 +231,7 @@
 					position: absolute;
 					top: 1em;
 					width: 5em;
-				}
+				}*/
 			}
 		}
 	}

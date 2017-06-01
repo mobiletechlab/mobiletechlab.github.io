@@ -14,7 +14,6 @@
 		<link rel="stylesheet" href="/assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 	</head>
 	<body>
 
@@ -53,12 +52,12 @@
 <div id="paper-list">
 	<input class="search" type="text" placeholder="Search through our research" />
 
+	<div class="search-sort-list">
 		Sort by:
-		<span class="search-sort" data-sort="authors">Authors</span>
-		<span class="search-sort" data-sort="title">Title</span>
-		<span class="search-sort" data-sort="outlet_type">Outlet type</span>
-		<span class="search-sort" data-sort="outlet">Outlet</span>
-
+		<span class="sort" data-sort="authors">Authors</span>
+		<span class="sort" data-sort="title">Title</span>
+		<span class="sort" data-sort="outlet_type">Outlet type</span>
+	</div>
 
 	<ul class="list search-result-list"></ul>
 
@@ -86,44 +85,19 @@ var options = {
 </li>`
 };
 
-var papers = [
-	{ 
-		title: 'Towards end-user development of REST client applications on smartphones',
-		authors: 'Gebremariam Mesfin, Tor-Morten Grønli, Dida Midekso, Gheorghita Ghinea', 
-		outlet_type: 'Article',
-		outlet: 'Computer Standards & Interfaces 44, September 2015'
-	},
-	{ 
-		title: 'Mobile application platform heterogeneity: Android vs Windows Phone vs iOS vs Firefox OS',
-		authors: 'Tor-Morten Grønli, Jarle Hansen, Gheroghita Ghinea, Muhammad Younas', 
-		outlet_type: 'Conference',
-		outlet: 'Advanced Information Networking and Applications (AINA), 2014 IEEE 28th International Conference on, Pages 635-641'
-	},
-	{
-		title: 'Cloud to Device Push Messaging on Android: A Case Study',
-		authors: 'Jarle Hansen, Tor-Morten Grønli, Gheorghita Ghinea',
-		outlet_type: 'Conference',
-		outlet: '￼2012 26th International Conference on Advanced Information Networking and Applications Workshops, Pages 1298-1303'
-	}
-	,
-	{
-		title: 'Android vs Windows Mobile vs Java ME: a comparative study of mobile development environments',
-		authors: 'Tor-Morten Grønli, Jarle Hansen, Gheorghita Ghinea',
-		outlet_type: 'Conference',
-		outlet: '￼Proceedings of the 3rd International Conference on PErvasive Technologies Related to Assistive Environments, Pages 45-53'
-	}
-];
+window.onload = () => {
+	$.getJSON('../research.json').done((data) => {
+		var paperList = new List('paper-list', options, data.papers);
+	});
+};
 
-var paperList = new List('paper-list', options, papers);
 </script>
 	</section>
 
 						</div>
 					</div>
 
-				
-
-<!-- Sidebar -->
+				<!-- Sidebar -->
 <div id="sidebar">
 	<div class="inner">
 
@@ -136,7 +110,6 @@ var paperList = new List('paper-list', options, papers);
 			</header>-->
 			<ul>
 				<li><a href="/">Home</a></li>
-				<li><a href="/blog">Blog</a></li>
 				<li><a href="/research">Research</a></li>
 				<li><a href="/people">People</a></li>
 				<li>
@@ -146,26 +119,25 @@ var paperList = new List('paper-list', options, papers);
 						<li><a href="#">…</a></li>
 					</ul>
 				</li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="/contact">Contact us</a></li>
 			</ul>
 		</nav>
 
-		<!-- Section -->
-		<section>
+		<!--<section>
 			<header class="major">
 				<h2>Contact us</h2>
 			</header>
 			<p>Get in touch with MOTEL!</p>
 			<ul class="contact">
 				<li class="fa-envelope-o"><a href="#">motel@westerdals.no</a></li>
-				<!--<li class="fa-phone">(000) 000-0000</li>-->
 				<li class="fa-home">Christian Krohgs gate 32<br /> Oslo, Norge</li>
 			</ul>
-		</section>
+		</section>-->
 
-		<!-- Footer -->
-		<footer id="footer">
+		<!--<footer id="footer">
 			<p class="copyright">&copy; Mobile Tech Lab, Westerdals. All rights reserved.</p>
-		</footer>
+		</footer>-->
 
 	</div>
 </div>
@@ -178,6 +150,7 @@ var paperList = new List('paper-list', options, papers);
 			<script src="/assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="/assets/js/main.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 
 	</body>
 </html>

@@ -1,0 +1,32 @@
+{
+    "papers": [
+        {
+            "title": "Towards end-user development of REST client applications on smartphones",
+            "authors": "Gebremariam Mesfin, Tor-Morten Grønli, Dida Midekso, Gheorghita Ghinea",
+            "outlet_type": "Article",
+            "outlet": "Computer Standards & Interfaces44, September2015",
+            "year": "2015"
+        },
+        {
+            "title": "Mobile application platform heterogeneity: Android vs Windows Phone vs iOS vs Firefox OS",
+            "authors": "Tor-Morten Grønli, Jarle Hansen, Gheroghita Ghinea, Muhammad Younas",
+            "outlet_type": "Conference",
+            "outlet": " Advanced Information Networking and Applications (AINA), 2014 IEEE 28th International Conference on, Pages 635-641",
+            "year": "2014"
+        },
+        {
+            "title": "Cloud to Device Push Messaging on Android: A Case Study",
+            "authors": "Jarle Hansen, Tor-Morten Grønli, Gheorghita Ghinea",
+            "outlet_type": "Conference",
+            "outlet": "￼2012 26th International Conference on Advanced Information Networking and Applications Workshops, Pages 1298-1303",
+            "year": "2012"
+        },
+        {
+            "title": "Android vs Windows Mobile vs Java ME: a comparative study of mobile development environments",
+            "authors": "Tor-Morten Grønli, Jarle Hansen, Gheorghita Ghinea",
+            "outlet_type": "Conference",
+            "outlet": "￼Proceedings of the 3rd International Conference on PErvasive Technologies Related to Assistive Environments, Pages 45-53",
+            "year": "2010"
+        }
+    ]
+}
