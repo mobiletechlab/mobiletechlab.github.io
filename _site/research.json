@@ -27,6 +27,13 @@
             "outlet_type": "Conference",
             "outlet": "￼Proceedings of the 3rd International Conference on PErvasive Technologies Related to Assistive Environments, Pages 45-53",
             "year": "2010"
+        },
+        {
+            "title": "Progressive Web Apps: The Possible Web-native Unifier",
+            "authors": "Andreas Biørn-Hansen, Tim A. Majchrzak, Tor-Morten Grønli",
+            "outlet_type": "Conference",
+            "outlet": "Proceedings of the 13th International Conference on Web Information Systems and Technologies",
+            "year": "2017"
         }
     ]
 }
