@@ -5,7 +5,9 @@
 
 			<article>
 				<img class="image posts-image" src="{{ post.image }}" alt="" />
-				<a href="{{ post.linkedin }}" target="_blank" class="linkedin"><li class="fa fa-linkedin-square"></li></a>
+				<a href="{{ post.linkedin }}" target="_blank" class="social-media" alt="LinkedIn for {{ post.title }}" title="LinkedIn for {{ post.title }}"><li class="fa fa-linkedin-square"></li></a>
+				<a href="{{ post.researchgate }}" target="_blank" class="social-media" alt="ResearchGate for {{ post.title }}" title="ResearchGate for {{ post.title }}"><i class="ai ai-researchgate-square ai-1x"></i></a>
+				<a href="{{ post.googlescholar }}" target="_blank" class="social-media" alt="Google Scholar for {{ post.title }}" title="Google Scholar for {{ post.title }}"><i class="ai ai-google-scholar-square ai-1x"></i></a>
 				<h3 class="title">{{ post.title }}</h3>
 				<p class="subtitle">{{ post.subtitle }}</p>
 				<p class="about">{{ post.excerpt | remove: "<p>" | remove: "</p>" }}</p>
