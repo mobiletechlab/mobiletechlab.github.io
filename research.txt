@@ -1,13 +1,13 @@
-@inproceedings{DBLP:conf/aina/MesfinGGY17,
-  author    = {Gebremariam Mesfin and
-               Tor{-}Morten Gr{\o}nli and
-               Gheorghita Ghinea and
-               Muhammad Younas},
-  title     = {Usability of Composing {REST} Services on Smartphones},
-  booktitle = {{AINA}},
-  pages     = {476--483},
-  publisher = {{IEEE} Computer Society},
-  year      = {2017}
+@inproceedings{DBLP:conf/IEEEcit/EksenSGG16,
+  author    = {Kaan Eksen and
+               Tacha Serif and
+               George Ghinea and
+               Tor{-}Morten Gr{\o}nli},
+  title     = {inLoc: Location-Aware Emergency Evacuation Assistant},
+  booktitle = {{CIT}},
+  pages     = {50--56},
+  publisher = {{IEEE}},
+  year      = {2016}
 }
 
 @inproceedings{majchrzak2017comprehensive,
