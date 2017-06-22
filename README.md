@@ -1,7 +1,7 @@
 # mobtechlab.github.io
 
 ## Adding new research 
-There are two to ways to add new research to the `/research` page. Either way will not require you to restart the website, Github Pages (our webhost) will automatically re-build the page on each commit (change) to the repository.
+There are two to ways to add new research to the `/research` page. Neither way will not require you to restart the website, Github Pages (our webhost) will automatically re-build the page on each commit (change) to the repository.
 
 ### Directly via Github
 You can add a new Bibtex entry directly to the `research.txt` file on Github, found **[here](https://github.com/mobiletechlab/mobiletechlab.github.io/blob/master/research.txt)**. Simply add a new entry representing your paper, then commit the change.
