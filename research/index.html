@@ -45,10 +45,57 @@ layout: page
 </li>`
 	};
 
-	window.onload = () => {
+	/*window.onload = () => {
 		$.getJSON('../research.json').done((data) => {
 			var paperList = new List('paper-list', options, data.papers);
 		});
+	};*/
+
+	window.onload = () => {
+		$.get('../research.txt').done((bibtex) => {
+			const parsedBibtex = bibtexParse.toJSON(bibtex);
+
+			const paperList = parsedBibtex.map(entry => {
+				return {
+					outlet_type: outletToStandardFormat(entry.entryType),
+					authors: entry.entryTags.author,
+					outlet: entry.entryTags.outlet || entry.entryTags.journal || entry.entryTags.publisher || entry.entryTags.conference || entry.entryTags.booktitle,
+					title: entry.entryTags.title,
+					year: entry.entryTags.year
+				}
+			});
+
+			new List('paper-list', options, paperList);
+		});
 	};
+
+	function outletToStandardFormat(outletType) {
+		switch(outletType.toLowerCase()) {
+			case 'article':
+				return 'Journal';
+
+			case 'incollection':
+			case 'inproceedings':
+			case 'proceedings':
+				return 'Conference';
+
+			case 'book':
+			case 'booklet':
+			case 'inbook':
+				return 'Book';
+			
+			case 'phdthesis':
+				return 'PhD Thesis';
+			case 'mastersthesis':
+				return 'Masters Thesis';
+
+			case 'techreport':
+			case 'report':
+				return 'Report';
+
+			default:
+				return outletType.toLowerCase();
+		}
+	}
 
 </script>

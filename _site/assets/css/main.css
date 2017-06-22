@@ -713,7 +713,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 #paper-list .sort { cursor: pointer; user-select: none; }
 #paper-list .search-result-list { list-style-type: none; }
 #paper-list ul, #paper-list li { margin: 0px; padding: 0px; }
-#paper-list .search-outlet-chip { background-color: #f0ad4e; padding: 4px; color: white; font-size: 0.8em; }
+#paper-list .search-outlet-chip { background-color: #f0ad4e; padding: 4px; text-transform: capitalize; color: white; font-size: 0.8em; }
 #paper-list .search-result-paper:nth-child(1) { border-top: 1px solid #ddd; padding-top: 15px; }
 #paper-list .search-result-paper { border-bottom: 1px solid #ddd; margin-top: 15px; display: flex; flex-direction: row; flex: 1; flex-wrap: wrap; justify-content: space-between; }
 #paper-list .search-result-paper .outlet, #paper-list .search-result-paper .year { margin-left: 5px; font-size: 0.8em; color: #aaa; }
