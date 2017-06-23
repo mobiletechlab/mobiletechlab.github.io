@@ -1,3 +1,15 @@
+@inproceedings{DBLP:conf/IEEEcit/EksenSGG16,
+  author    = {Kaan Eksen and
+               Tacha Serif and
+               George Ghinea and
+               Tor{-}Morten Gr{\o}nli},
+  title     = {inLoc: Location-Aware Emergency Evacuation Assistant},
+  booktitle = {{CIT}},
+  pages     = {50--56},
+  publisher = {{IEEE}},
+  year      = {2016}
+}
+
 @inproceedings{majchrzak2017comprehensive,
   title={Comprehensive Analysis of Innovative Cross-Platform App Development Frameworks},
   author={Majchrzak, Tim and Grønli, Tor-Morten},

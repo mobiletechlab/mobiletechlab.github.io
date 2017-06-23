@@ -1,5 +1,5 @@
 --- 
-layout: page 
+layout: page
 ---
 <header class="main">
 	<h1>Research</h1>
@@ -59,18 +59,26 @@ layout: page
 				return {
 					outlet_type: outletToStandardFormat(entry.entryType),
 					authors: entry.entryTags.author,
-					outlet: entry.entryTags.outlet || entry.entryTags.journal || entry.entryTags.publisher || entry.entryTags.conference || entry.entryTags.booktitle,
+					outlet: entry.entryTags.outlet
+					|| entry.entryTags.journal
+					|| entry.entryTags.publisher
+					|| entry.entryTags.conference
+					|| entry.entryTags.booktitle,
 					title: entry.entryTags.title,
 					year: entry.entryTags.year
 				}
 			});
 
-			new List('paper-list', options, paperList);
+			let list = new List('paper-list', options, paperList);
+
+			list.sort("year", {
+				order: "desc"
+			});
 		});
 	};
 
 	function outletToStandardFormat(outletType) {
-		switch(outletType.toLowerCase()) {
+		switch (outletType.toLowerCase()) {
 			case 'article':
 				return 'Journal';
 
@@ -83,7 +91,7 @@ layout: page
 			case 'booklet':
 			case 'inbook':
 				return 'Book';
-			
+
 			case 'phdthesis':
 				return 'PhD Thesis';
 			case 'mastersthesis':
