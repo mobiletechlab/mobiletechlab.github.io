@@ -25,6 +25,7 @@
 
 	body {
 		background: _palette(bg);
+		color: _palette(fg-bold) !important;
 
 		// Prevents animation/transition "flicker".
 		// Automatically added/removed by js/main.js.
