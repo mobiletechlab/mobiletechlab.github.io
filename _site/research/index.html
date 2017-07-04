@@ -82,17 +82,11 @@
 		<i class="outlet_type search-outlet-chip"></i>
 		<br />
 		<br />
-		<img class="paper-icon" title="Download paper" src="/images/download_icon_gray.png" alt="Icon: Download paper button" />
-		<img class="paper-icon" title="Read paper meta" src="/images/external_link_icon_gray.png" alt="Icon: External paper link" />
+		<img class="paper-icon" title="Download paper" src="/images/icons/download_icon_gray.png" alt="Icon: Download paper button" />
+		<img class="paper-icon" title="Read paper meta" src="/images/icons/external_link_icon_gray.png" alt="Icon: External paper link" />
 	</div>
 </li>`
 	};
-
-	/*window.onload = () => {
-		$.getJSON('../research.json').done((data) => {
-			var paperList = new List('paper-list', options, data.papers);
-		});
-	};*/
 
 	window.onload = () => {
 		$.get('../research.txt').done((bibtex) => {
@@ -173,8 +167,8 @@
 				<li>
 					<span class="opener">Lab</span>
 					<ul>
-						<li><a href="#">Equipment</a></li>
-						<li><a href="#">…</a></li>
+						<li><a href="/lab/projects">Projects</a></li>
+						<li><a href="/lab/gallery">Gallery</a></li>
 					</ul>
 				</li>
 				<!--<li><a href="/blog">Blog</a></li>-->
@@ -198,7 +192,7 @@
 			<script src="/assets/js/bibtexParse.js"></script>
 			<!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="/assets/js/main.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+			<script src="/assets/js/list.min.js"></script>
 
 	</body>
 </html>

@@ -1,0 +1,16 @@
+<!-- Posts -->
+<div id="projects">
+
+    {% for entry in include.project_entries %}
+        <article class="project-entry">
+            <h2>{{ entry.title }}</h2>
+            <div class="project-info">
+                <p>
+                    {{ entry.text }}
+                </p>
+                <img src="{{ entry.image }}" alt="" />
+            </div>
+        </article>
+    {% endfor %}
+
+</div>

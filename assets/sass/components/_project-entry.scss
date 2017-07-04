@@ -1,0 +1,42 @@
+#projects {
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project-entry {
+    border-bottom: 1px solid grey;
+    display: block;
+    margin-top: 10px;
+    min-height: 280px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EFF1F2;
+
+    .project-info {
+        display: flex;
+        justify-content: space-between;
+
+        @include breakpoint(large-to-max) {
+            flex-direction: row;
+        }
+        
+        @include breakpoint(medium) {
+            flex-direction: column;
+        }
+
+        @include breakpoint(small) {
+            flex-direction: column;
+        }
+
+        @include breakpoint(xsmall) {
+            flex-direction: column;
+        }
+    }
+
+    p {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+
+}

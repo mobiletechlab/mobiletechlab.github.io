@@ -1,0 +1,13 @@
+<!-- Posts -->
+<div id="gallery">
+
+    {% for entry in include.gallery_images %}
+
+    <div class="gallery-image">
+        <img src="{{ entry.image }}" alt="" />
+        <p>{{ entry.subtitle }}</p>
+    </div>
+
+    {% endfor %}
+
+</div>

@@ -729,6 +729,21 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 #paper-list .search-result-paper-links .paper-icon { width: 20px; height: 20px; margin: 5px; }
 @media screen { #paper-list .search-result-paper-links { flex: 0.2; } }
 
+#projects { flex: 1; flex-direction: row; flex-wrap: wrap; }
+
+.project-entry { border-bottom: 1px solid grey; display: block; margin-top: 10px; min-height: 280px; padding-bottom: 10px; border-bottom: 1px solid #EFF1F2; }
+.project-entry .project-info { display: flex; justify-content: space-between; }
+@media screen { .project-entry .project-info { flex-direction: row; } }
+@media screen and (max-width: 980px) { .project-entry .project-info { flex-direction: column; } }
+@media screen and (max-width: 736px) { .project-entry .project-info { flex-direction: column; } }
+@media screen and (max-width: 480px) { .project-entry .project-info { flex-direction: column; } }
+.project-entry p { margin-right: 10px; margin-bottom: 10px; }
+
+#gallery { display: flex; flex: 1; flex-direction: row; flex-wrap: wrap; }
+#gallery .gallery-image { display: flex; flex-direction: column; margin: 20px; max-height: 400px; max-width: 370px; }
+#gallery .gallery-image img { max-height: inherit; max-width: inherit; border-top-left-radius: 5px; border-top-right-radius: 5px; }
+#gallery .gallery-image p { width: inherit; padding: 5px; color: #333; background-color: #f5f6f7; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
+
 /* Features */
 .features { display: -moz-flex; display: -webkit-flex; display: -ms-flex; display: flex; -moz-flex-wrap: wrap; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 0 0 2em -3em; width: calc(100% + 3em); }
 .features article { -moz-align-items: center; -webkit-align-items: center; -ms-align-items: center; align-items: center; display: -moz-flex; display: -webkit-flex; display: -ms-flex; display: flex; margin: 0 0 3em 3em; position: relative; width: calc(50% - 3em); }
@@ -804,7 +819,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   #main > .inner > section { padding: 3em 0 1em 0 ; } }
 
 /* Sidebar */
-#logo { background: url("../../images/mtl-logo.png") no-repeat center; background-size: 120px; height: 150px; 		/*form {
+#logo { background: url("../../images/logos/mtl-logo.png") no-repeat center; background-size: 120px; height: 150px; 		/*form {
 			@include icon;
 			position: relative;
 

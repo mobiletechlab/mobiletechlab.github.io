@@ -1,0 +1,31 @@
+#gallery {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .gallery-image {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        max-height: 400px;
+        max-width: 370px;
+        
+        img {
+            max-height: inherit;
+            max-width: inherit;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        p {
+            width: inherit;
+            padding: 5px;
+            color: #333;
+            background-color: #f5f6f7;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+    }
+}

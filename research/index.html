@@ -39,17 +39,11 @@ layout: page
 		<i class="outlet_type search-outlet-chip"></i>
 		<br />
 		<br />
-		<img class="paper-icon" title="Download paper" src="{{ site.baseurl }}/images/download_icon_gray.png" alt="Icon: Download paper button" />
-		<img class="paper-icon" title="Read paper meta" src="{{ site.baseurl }}/images/external_link_icon_gray.png" alt="Icon: External paper link" />
+		<img class="paper-icon" title="Download paper" src="{{ site.baseurl }}/images/icons/download_icon_gray.png" alt="Icon: Download paper button" />
+		<img class="paper-icon" title="Read paper meta" src="{{ site.baseurl }}/images/icons/external_link_icon_gray.png" alt="Icon: External paper link" />
 	</div>
 </li>`
 	};
-
-	/*window.onload = () => {
-		$.getJSON('../research.json').done((data) => {
-			var paperList = new List('paper-list', options, data.papers);
-		});
-	};*/
 
 	window.onload = () => {
 		$.get('../research.txt').done((bibtex) => {
