@@ -42,3 +42,165 @@
   year={2016},
   publisher={Elsevier}
 }
+
+@article{RN311,
+   author = {Grønli, Tor-Morten and Ghinea, Gheorghita},
+   title = {Meeting quality standards for mobile application development in businesses: A framework for cross-platform testing},
+   journal = {Proceedings of the Annual Hawaii International Conference on System Sciences},
+   volume = {2016-March},
+   pages = {5711-5720},
+   ISSN = {1530-1605},
+   DOI = {http://dx.doi.org10.1109/HICSS.2016.706},
+   url = {http://www.hicss.hawaii.edu/diglib.htm},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN319,
+   author = {Hansen, Kjeld Steenbjerg and Mukkamala, Raghava and Hussain, Abid and Grønli, Tor-Morten and Langberg, Henning and Vatrapu, Ravi Kiran},
+   title = {Big Social Data in Public Health: A Mixed-methods Case Study of Sundhed.dk's Facebook Strategy, Engagement, and Performance},
+   journal = {Procedia Computer Science},
+   volume = {98},
+   pages = {298-307},
+   ISSN = {1877-0509},
+   DOI = {http://dx.doi.org10.1016/j.procs.2016.09.046},
+   url = {http://www.elsevier.com/wps/find/journaldescription.cws_home/719435/description#},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@inbook{RN321,
+   author = {Hiis, Teddy Falsen and Grønli, Tor-Morten and Ghinea, Gheorghita},
+   title = {The SmartPT Wearble sensor integration and tracking in training equipment},
+   booktitle = {2016 IEEE International Conference on Computer and Information Technology (CIT)},
+   publisher = {IEEE},
+   pages = {96-99},
+   ISBN = {978-1-5090-4314-9},
+   year = {2016},
+   type = {Book Section}
+}
+
+@inbook{RN324,
+   author = {Kaan, Eksen and Serif, Tacha and Ghinea, Gheorghita and Grønli, Tor-Morten},
+   title = {inLoc : Location-aware Emergency Evacuation Assistant},
+   booktitle = {2016 IEEE International Conference on Computer and Information Technology (CIT)},
+   publisher = {IEEE},
+   pages = {50-56},
+   ISBN = {978-1-5090-4314-9},
+   year = {2016},
+   type = {Book Section}
+}
+
+@article{RN331,
+   author = {Lorentzen, Kristine Sundt and Grønli, Tor-Morten and Younas, Muhammad and Ghinea, Gheorghita and Satpathy, Manoranjan},
+   title = {Sensors in your clothes: Design and development of a prototype},
+   journal = {Lecture Notes in Computer Science},
+   volume = {9847},
+   pages = {302-312},
+   ISSN = {0302-9743},
+   DOI = {http://dx.doi.org10.1007/978-3-319-44215-0_25},
+   url = {http://ojs.bibsys.no/index.php/Nokobit/article/view/328/287
+http://www.springer.com/sgw/cda/frontpage/0,11855,1-164-2-73659-0,00.html},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@inbook{RN360,
+   author = {Spyridonis, Fotis and Grønli, Tor-Morten and Paraskevopoulos, Konstantinos and Ghinea, Gheorghita},
+   title = {A Multi Platform Pain Assessment Tool using Bespoke Gaming Sensors},
+   booktitle = {PETRA '16 : Proceedings of the 9th ACM International Conference on PErvasive Technologies Related to Assistive Environments, Corfu, Island, Greece — June 29 - July 01, 2016},
+   publisher = {Association for Computing Machinery (ACM)},
+   ISBN = {978-1-4503-4337-4},
+   year = {2016},
+   type = {Book Section}
+}
+
+@article{RN361,
+   author = {Steen-Hansen, Linn and Fagernes, Siri},
+   title = {The importance of process-oriented accessibility guidelines for web developers},
+   journal = {Studies in Health Technology and Informatics},
+   volume = {229},
+   pages = {439-449},
+   ISSN = {0926-9630},
+   DOI = {http://dx.doi.org10.3233/978-1-61499-684-2-439},
+   url = {http://www.booksonline.iospress.nl/Content/View.aspx?piid=64},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@inbook{RN362,
+   author = {Straton, Nadiya and Hansen, Kjeld Steenbjerg and Mukkamala, Raghava Rao and Hussain, Abid and Grønli, Tor-Morten and Langberg, Henning and Vatrapu, Ravi Kiran},
+   title = {Big Social Data Analytics for Public Health: Facebook Engagement and Performance},
+   booktitle = {2016 IEEE 18th International Conference on e-Health Networking, Applications and Services (Healthcom)},
+   publisher = {IEEE conference proceedings},
+   pages = {442-447},
+   ISBN = {978-1-5090-3370-6},
+   year = {2016},
+   type = {Book Section}
+}
+
+@article{RN366,
+   author = {Vatrapu, Ravi Kiran and Kickmeier-Rust, Michael and Ginon, Blandine and Bull, Susan},
+   title = {Preface: Fourth International Workshop on Teaching Analytics},
+   journal = {CEUR Workshop Proceedings},
+   pages = {2},
+   ISSN = {1613-0073},
+   url = {http://sunsite.informatik.rwth-aachen.de/Publications/CEUR-WS/index.html},
+   year = {2016},
+   type = {Magazine Article}
+}
+
+@article{RN367,
+   author = {Vatrapu, Ravi Kiran and Kickmeier-Rust, Michael and Ginon, Blandine and Bull, Susan},
+   title = {Proceedings of the Fourth International Workshop on Teaching Analytics, in Conjunction with EC-TEL 2016},
+   journal = {CEUR Workshop Proceedings},
+   volume = {1738},
+   pages = {46},
+   ISSN = {1613-0073},
+   url = {http://ceur-ws.org/Vol-1738/IWTA_2016_preface.pdf
+http://sunsite.informatik.rwth-aachen.de/Publications/CEUR-WS/index.html},
+   year = {2016},
+   type = {Magazine Article}
+}
+
+@article{RN368,
+   author = {Vatrapu, Ravi Kiran and Mukkamala, Raghava Rao and Hussain, Abid and Flesch, Benjamin},
+   title = {Social Set Analysis: A Set Theoretical Approach to Big Data Analytics},
+   journal = {IEEE Access},
+   volume = {4},
+   pages = {2542-2571},
+   ISSN = {2169-3536},
+   DOI = {http://dx.doi.org10.1109/ACCESS.2016.2559584},
+   url = {http://ceur-ws.org/Vol-1738/
+http://www.ieee.org/publications_standards/publications/ieee_access.html},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@inbook{RN369,
+   author = {Vatrapu, Ravi Kiran and Reimann, Peter and Hussain, Abid and Pantazos, Kostas},
+   title = {Repertory Grids for Formative Assessment: Concept, Method, Tools, and Findings},
+   booktitle = {Measuring and Visualizing Learning in the Information-Rich Classroom},
+   publisher = {Routledge},
+   pages = {121-136},
+   ISBN = {9781138021136},
+   url = {10.1109/ACCESS.2016.2559584},
+   year = {2016},
+   type = {Book Section}
+}
+
+@article{RN370,
+   author = {Woldmariam, Mesfin and Ghinea, Gheorghita and Solomon, Atnafu and Grønli, Tor-Morten},
+   title = {Monetary Practices of Traditional Rural Communities in Ethiopia: Implications for New Financial Technology Design},
+   journal = {Human-Computer Interaction},
+   volume = {31},
+   number = {6},
+   pages = {473-517},
+   ISSN = {0737-0024},
+   DOI = {http://dx.doi.org10.1080/07370024.2016.1139461},
+   url = {https://www.routledge.com/products/9781138021136
+http://hci-journal.com/},
+   year = {2016},
+   type = {Journal Article}
+}
+

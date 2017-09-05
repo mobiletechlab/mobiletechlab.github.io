@@ -1,0 +1,44 @@
+@inproceedings{DBLP:conf/IEEEcit/EksenSGG16,
+  author    = {Kaan Eksen and
+               Tacha Serif and
+               George Ghinea and
+               Tor{-}Morten Gr{\o}nli},
+  title     = {inLoc: Location-Aware Emergency Evacuation Assistant},
+  booktitle = {{CIT}},
+  pages     = {50--56},
+  publisher = {{IEEE}},
+  year      = {2016}
+}
+
+@inproceedings{majchrzak2017comprehensive,
+  title={Comprehensive Analysis of Innovative Cross-Platform App Development Frameworks},
+  author={Majchrzak, Tim and Grønli, Tor-Morten},
+  booktitle={Proceedings of the 50th Hawaii International Conference on System Sciences},
+  year={2017}
+}
+
+@inproceedings{mesfin2017usability,
+  title={Usability of Composing REST Services on Smartphones},
+  author={Mesfin, Gebremariam and Grønli, Tor-Morten and Ghinea, Gheorghita and Younas, Muhammad},
+  booktitle={Advanced Information Networking and Applications (AINA), 2017 IEEE 31st International Conference on},
+  pages={476--483},
+  year={2017},
+  organization={IEEE}
+}
+
+@inproceedings{bioand2017pwa, 
+    title = {Progressive Web Apps: The Possible Web-native Unifier},
+    author = {Biørn-Hansen, Andreas and Majchrzak, Tim A. and Grønli, Tor-Morten},
+    booktitle = {Proceedings of the 13th International Conference on Web Information Systems and Technologies"},
+    year = {2017}
+}
+
+@article{mesfin2016towards,
+  title={Towards end-user development of REST client applications on smartphones},
+  author={Mesfin, Gebremariam and Grønli, Tor-Morten and Midekso, Dida and Ghinea, Gheorghita},
+  journal={Computer Standards & Interfaces},
+  volume={44},
+  pages={205--219},
+  year={2016},
+  publisher={Elsevier}
+}
