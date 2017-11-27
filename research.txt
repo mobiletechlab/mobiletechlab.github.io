@@ -1,3 +1,16 @@
+
+@INPROCEEDINGS{Biorn-Hansen2017-uk,
+  title           = "Baseline Requirements for Comparative Research on
+                     {Cross-Platform} Mobile Development: A Literature Survey",
+  booktitle       = "Proceedings of the 30th Norwegian Informatics Conference",
+  author          = "Bi{\o}rn-Hansen, Andreas and Gr{\o}nli, Tor-Morten and
+                     Ghinea, Gheorghita",
+  month           =  nov,
+  year            =  2017,
+  url             = "http://ojs.bibsys.no/index.php/NIK/article/view/427",
+  conference      = "Norwegian Informatics Conference"
+}
+
 @inproceedings{DBLP:conf/IEEEcit/EksenSGG16,
   author    = {Kaan Eksen and
                Tacha Serif and
