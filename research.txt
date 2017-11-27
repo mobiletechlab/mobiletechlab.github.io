@@ -1,9 +1,9 @@
 
 @INPROCEEDINGS{Biorn-Hansen2017-uk,
   title           = "Baseline Requirements for Comparative Research on
-                     {Cross-Platform} Mobile Development: A Literature Survey",
+                     Cross-Platform Mobile Development: A Literature Survey",
   booktitle       = "Proceedings of the 30th Norwegian Informatics Conference",
-  author          = "Bi{\o}rn-Hansen, Andreas and Gr{\o}nli, Tor-Morten and
+  author          = "Biørn-Hansen, Andreas and Grønli, Tor-Morten and
                      Ghinea, Gheorghita",
   month           =  nov,
   year            =  2017,
